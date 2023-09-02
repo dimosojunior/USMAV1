@@ -1,0 +1,34 @@
+
+paste this in eas.json
+
+
+{
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "preview2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      }
+    },
+    "preview3": {
+      "developmentClient": true
+    },
+    "production": {}
+  }
+}
+
+
+
+
+
+
+command to build
+
+https://docs.expo.dev/build-reference/apk/
+
+
+eas build -p android --profile preview

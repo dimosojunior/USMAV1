@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "usma-app-project",
+    "slug": "usma-app-project",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/s4.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/s2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/s4.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.dimosojr.usmaappproject"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cf4a1342-33ed-4b67-8d32-690dda71ea0a"
+      }
+    }
+  }
+}
